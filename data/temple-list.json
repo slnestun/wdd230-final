@@ -1,0 +1,30 @@
+{
+    "temples":[
+        {
+            "templeName":"Buenos Aires Argentina",
+            "location":"Buenos Aires, Argentina",
+            "address":"Aut. Tte. Gral. Riccheri N° 4955, Ciudad Evita, Buenos Aires, Argentina,",
+            "phone":"(54) 11-4693-9700",
+            "email": "Log in to send email to temple",
+            "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+            "history": "Announced on 2 April 1980, Groundbreaking on 20 April 1983, Dedicated on 17 January 1986",
+            "ordinance_schedule":"Temple Appointments Available Online",
+            "session_schedule":"Temple Appointments Available Online",
+            "closure_schedule":"Monday, 3 October 2022 - Monday, 17 October 2022\nSaturday, 24 December 2022 - Sunday, 25 December 2022\nSaturday, 31 December 2022 - Sunday, 1 January 2023",
+            "imageUrl": "./images/buenos_aires_temple_large.webp"
+        },
+        {
+            "templeName":"Buenos Aires Argentina",
+            "location":"Buenos Aires, Argentina",
+            "address":"Aut. Tte. Gral. Riccheri N° 4955, Ciudad Evita, Buenos Aires, Argentina,",
+            "phone":"(54) 11-4693-9700",
+            "email": "Log in to send email to temple",
+            "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+            "history": "Announced on 2 April 1980, Groundbreaking on 20 April 1983, Dedicated on 17 January 1986",
+            "ordinance_schedule":"Temple Appointments Available Online",
+            "session_schedule":"Temple Appointments Available Online",
+            "closure_schedule":"Monday, 3 October 2022 - Monday, 17 October 2022\nSaturday, 24 December 2022 - Sunday, 25 December 2022\nSaturday, 31 December 2022 - Sunday, 1 January 2023",
+            "imageUrl": "./images/buenos_aires_temple_large.webp"
+        }
+    ]
+}
