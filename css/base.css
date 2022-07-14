@@ -169,6 +169,12 @@ nav ul.open {
   top: 0;
 }
 
+.mySlides img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -264,15 +270,6 @@ span.currently-weather {
   font-weight: 300;
   line-height: 1em;
   margin-top: 5px;
-}
-
-span.wind-icon {
-  display: inline-block;
-  width: 20px;
-  background: url(../img/wind.png) no-repeat center / contain;
-  height: .8em;
-  vertical-align: bottom;
-  margin-right: 5px;
 }
 
 span.temperature {
