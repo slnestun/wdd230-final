@@ -225,6 +225,9 @@ nav ul.open {
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   display: inline-block;
   margin: auto;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  color: #212121;
 }
 
 .card-header {
@@ -244,8 +247,7 @@ nav ul.open {
 
 h2.city {
   font-size: 1.2em;
-  font-weight: 300;
-  margin: 0 0 20px;
+  margin: 0px 0px 20px;
   position: relative;
 }
 
@@ -261,20 +263,17 @@ h2.city:after {
 
 span.currently-weather {
   text-transform: uppercase;
-  font-weight: 300;
   font-size: .8em;
 }
 
 .wind {
   font-size: .8em;
-  font-weight: 300;
   line-height: 1em;
   margin-top: 5px;
 }
 
 span.temperature {
   font-size: 1em;
-  font-weight: 100;
   line-height: 1em;
 }
 .temperature_1, .temperature_2, .temperature_3{
@@ -317,8 +316,6 @@ span.temperature {
 
 span.day_1, span.day_2, span.day_3 {
   display: block;
-  font-weight: 300;
-  color: #212225;
   text-transform: uppercase;
 }
 

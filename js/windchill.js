@@ -1,6 +1,5 @@
 const apiURL =
-/*"https://api.openweathermap.org/data/2.5/forecast?id=3433955&cnt=24&units=Metric&appid=62b017d0bc368f491774a1b152049f7f";*/
-"https://api.openweathermap.org/data/2.5/onecall?lat=-34.603722&lon=-58.381592&exclude=hourly,minutely&units=Metric&appid=76088e3b3b69023841d188f0bf640df2";
+"https://api.openweathermap.org/data/2.5/onecall?lat=-34.603722&lon=-58.381592&exclude=hourly,minutely&units=Metric&appid=d1fde7f43b57c183c1d5d38872f2b70b";
 
 fetch(apiURL)
   .then((response) => response.json())
