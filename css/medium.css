@@ -1,0 +1,19 @@
+@media only screen and (min-width: 32.5em) {
+    .medium-view{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .sumary-inf{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .medium-image{
+        grid-column: 1/3;
+        grid-row: 2/3;
+        display: block;
+    }
+}

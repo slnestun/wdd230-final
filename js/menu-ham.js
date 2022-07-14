@@ -3,4 +3,5 @@ function toggleMenu(){
     document.getElementById("hamburguerBtn").classList.toggle("open");
 }
 const x = document.getElementById("hamburguerBtn");
+
 x.onclick = toggleMenu;
