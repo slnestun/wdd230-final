@@ -48,6 +48,19 @@
     #primaryNav {
         display: flex;
     }
+    #primaryNav ul {
+        background-color: #003057;
+        position:inherit;
+    }
+    #primaryNav ul li{
+        margin: 0px;
+    }
+    #primaryNav ul li a:hover{
+        background-color: #a8ccea;
+      }
+    .active, .dot:hover{
+        background-color: inherit;
+    }
     nav button {
         display: none;
     }
