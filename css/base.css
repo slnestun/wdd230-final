@@ -52,11 +52,11 @@ nav ul li a {
   font-size: 1em;
 }
 nav ul li.active a {
-  background-color: #FFFFFF;
-  color: #212225;
+  background-color: #4ACBDE;
+  color: #FFFFFF;
 }
 nav ul li a:hover {
-  background-color: #167B9C;
+  background-color: #4ACBDE;
   color: #FFFFFF;
 }
 nav ul {
@@ -91,7 +91,7 @@ margin-left: 20px;
 }
 #primaryNav ul li a:hover{
   color: #FFFFFF;
-  background-color: #167B9C;
+  background-color: #4ACBDE;
 }
 #primaryNav li:hover >   ul{
   display: block;
