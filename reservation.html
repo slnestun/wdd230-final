@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Nestor Rivera">
+    <meta name="description"
+        content="This site will contain the Temple Inn & Suites final project for wdd230 course from byui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+</head>
+
+<body>
+    <div class="center-home">
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <a href="./index.html" target="_self"><img src="./images/templeInn_icon_1.webp"
+                            alt="Temple Inn & Suites" height="49" width="100" /></a>
+                </div>
+                <div class="site-name">
+                    <h1>Temple Inn <br>& Suites</h1>
+                </div>
+                <div class="social-media">
+                    <div class="facebook-logo">
+                        <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook-logo.webp"
+                                alt="facebook logo" height="32" width="32"></a>
+                    </div>
+                    <div class="linkedin-logo">
+                        <a href="https://www.linkedin.com" target="_blank"><img src="./images/linkedin-logo.webp"
+                                alt="linkedin logo" height="32" width="32"></a>
+                    </div>
+                </div>
+                <nav>
+                    <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+                    <ul id="primaryNav">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./temple.html">Temple</a></li>
+                        <li class="active"><a href="./reservation.html">Reservation</a></li>
+                        <li><a href="#">Services</a>
+                            <ul>
+                                <li><a href="./reception.html">Reception</a></li>
+                                <li><a href="./fullTimeTempleMissionary.html">Full-time temple Missionary</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+        <main>
+           
+        </main>
+        <footer class="footer-color">
+            <div class="footer-chamber-inf">
+                <div class="footer-logo">
+                    <img src="./images/templeInn_icon_1.webp" alt="Temple Inn & Suites Logo" height="49" width="100">
+                </div>
+                <div class="footer-direction">
+                    <p class="bold-text">Temple Inn & Suites</p>
+                    <p>4800 Montgomery Ln #300</p>
+                    <p>Bethesda, MD 20814</p>
+                </div>
+                <div class="footer-contact">
+                    <p>info@templeinn.com</p>
+                    <p>+54 (11) 1234- 4567</p>
+                    <div class="social-media-footer">
+                        <a href="https://goo.gl/maps/aLMTAoCuEM1LEQmN7">📍 Location Map </a>
+                        <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook-logo.webp"
+                                alt="facebook logo" height="32" width="32"></a>
+                        <a href="https://www.linkedin.com" target="_blank"><img src="./images/linkedin-logo.webp"
+                                alt="linkedin logo" height="32" width="32"></a>
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-course-inf">
+                <div class="footer-data">
+                    <p class="copyright">&copy; <span id="year"></span> Temple Inn & Suites</p>
+                    <p class="bold-text">Nestor A. Rivera</p>
+                    <p>WDD230 Final Project</p>
+                    <p class="modification">Last Modification: <span id="currentDate"></span></p>
+                </div>
+                <p>Weather service provided by <a href="https://openweathermap.org">OpenWeatherMap</a></p>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/menu-ham.js"></script>
+    <script src="./js/today-date.js"></script>
+</body>
+
+</html>
