@@ -38,7 +38,6 @@ nav ul {
   list-style-type: none;
   position: absolute;
   z-index: 1;
-  top: 100px;
   padding: 0px;
   right: 0px;
   width: 100%;
@@ -63,6 +62,7 @@ nav ul li a:hover {
 nav ul {
   display: none;
 }
+
 nav ul.open {
   display: block;
 }
@@ -76,6 +76,24 @@ nav ul.open {
   display: none;
 }
 #hamburguerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+#primaryNav ul{
+  display: none;
+  list-style: none;
+  background-color: #FFFFFF;
+  position: absolute;
+}
+#primaryNav ul li{
+float: none;
+margin-left: 20px;
+}
+#primaryNav ul li a:hover{
+  color: #FFFFFF;
+  background-color: #167B9C;
+}
+#primaryNav li:hover >   ul{
   display: block;
 }
 
