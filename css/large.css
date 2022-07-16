@@ -1,0 +1,107 @@
+@media only screen and (min-width: 64rem) {
+    .home-page{
+        margin: 0px 10%;
+    }
+    .header-content {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+    }
+    .logo {
+        grid-column: 2/3;
+    }
+    .chamber-name {
+        grid-column: 3/4;
+    }
+    nav {
+        grid-column: 4/8;
+        grid-row: 1/2;
+    }
+    .social-media {
+        grid-column: 9/10;
+    }
+    .date {
+        grid-column: 1/11;
+        grid-row: 2/3;
+        text-align: center;
+    }
+    ul #primaryNav {
+        display: grid;
+    }
+    nav ul {
+        list-style-type: none;
+        position: initial;
+        z-index: 1;
+        top: 100px;
+        right: 0px;
+        width: 100%;
+        background-color: #003057;
+    }
+    nav ul li a {
+        display: inline-block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: #FFFFFF;
+        border-top: none;
+        font-size: 1em;
+    }
+    /* N A V I G A T I O N */
+    #primaryNav {
+        display: flex;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul li a:hover {
+        background-color: #a8ccea;
+        border-radius: 5px;
+    }
+    nav ul li.active a {
+        border-radius: 5px;
+    }
+    /*------------------------------------------
+    ------------- FOOTER ----------------------*/
+    .footer-chamber-inf {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0.5em;
+    }
+    .footer-logo {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+    }
+    .footer-direction,
+    .footer-contact {
+        text-align: left;
+    }
+    .footer-data {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .footer-data p {
+        padding: 0px 10px 0px 10px;
+        border-left: 1px solid #FFFFFF;
+    }
+    .medium-image{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .sumary-inf{
+        grid-column: 1/3;
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em;
+    }
+    .sumary-img{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .sumary-inf p{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: auto;
+        text-align: left;
+    }
+}

@@ -126,7 +126,6 @@ nav ul.open {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -331,19 +330,16 @@ span.day_1, span.day_2, span.day_3 {
 .clearfix {
 	clear: both;
 }
-.summary-inf{
-  margin: 10px;
+.sumary-inf{
+  margin: 20px 0px;
 }
-.summary-inf p{
+.sumary-inf p{
   font-family: 'Open Sans', sans-serif;
-  margin: 0px 10px;
-  border: 1px solid #212225;
-  border-radius: 5px;
+  color: #212225;
+  margin: 0px 10px 20px;
   padding: 0px;
 }
-.summary-inf img{
-  border: 1px solid #212225;
-  border-radius: 5px;
+.sumary-inf img{
   width: 100%;
   height: 100%;
 }
