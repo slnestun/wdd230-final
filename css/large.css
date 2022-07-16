@@ -104,4 +104,11 @@
         margin: auto;
         text-align: left;
     }
+    .review-inf{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        opacity:unset;
+        width: auto;
+        top: 67%;
+    }
 }

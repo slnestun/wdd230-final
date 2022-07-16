@@ -28,24 +28,31 @@
         grid-row: 2/3;
         display: block;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-bottom: 20px;
     }
     .medium-image img{
         width: 100%;
-        height: 100%;
+        height: auto;
         border-radius: 5px;
     }
     .review-inf{
+        grid-column: 1/3;
+        grid-row: 2/3;
         position: relative;
-        top:-60%;
+        top:35%;
         background-color: #FFFFFF;
-        width: 50%;
+        width: 60%;
+        height: 30%;
         padding: 5px 5px 5px 20px;
         opacity: 0.8;
+        display: block;
     }
     .review-inf p{
         font-family: 'Open Sans', sans-serif;
         font-size: 1.2em;
         font-weight: 500;
+        color: #212125;
+    }
+    .sumary-inf p{
+        margin-top:10px;
     }
 }

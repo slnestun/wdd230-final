@@ -344,6 +344,6 @@ span.day_1, span.day_2, span.day_3 {
   height: 100%;
 }
 
-.medium-image{
+.medium-image, .review-inf{
   display: none;
 }
