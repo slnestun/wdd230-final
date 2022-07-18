@@ -288,7 +288,7 @@ form input.submitBtn {
 .button-join{
   margin-top: -5px;
 }
-.text {
+.button-join .text {
   padding: 8px 12px;
   width: 100%;
   text-align: center;
@@ -302,7 +302,7 @@ form input.submitBtn {
   text-decoration: none;
   display: inline-block;
 }
-.text:hover{
+.button-join .text:hover{
   background-color: #FFFFFF;
   color: #212225;
 }
@@ -504,7 +504,7 @@ span.day_1, span.day_2, span.day_3 {
   margin: 20px;
 }
 
-.temple-title, .reception-title {
+.temple-title, .reception-title, .more-services {
   text-align: center;
   margin: 10px 0px 10px 0px;
   font-size: 2em;
@@ -671,5 +671,49 @@ span.day_1, span.day_2, span.day_3 {
   list-style: none;
   font-size: 1.5em;
   padding: 5px;
+}
+.services-title{
+  text-align: center;
+  font-size: 2em;
+}
+.services,
+.amenities{
+  margin: 10px;
+  border: 2px solid #003057;
+  border-radius: 10px;
+}
+.services img,
+.amenities img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.list-services ul{
+  margin: 20px;
+  padding: 5px 15px;
+  font-size: 1.3em;
+
+}
+.list-services ul li{
+  padding: 10px;
+  color: #212225;
+  font-family: 'Open Sans', sans-serif;
+}
+.button-reception,
+.button-temple-missionary{
+  display: block;
+  border: none;
+  background-color: #003057;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 15px auto;
+  max-width: 20rem;
+  font-size: 1.3em;
+  text-align: center !important;
+}
+.text-services{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
 }
 

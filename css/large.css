@@ -139,7 +139,8 @@
     .catering-slide{
         font-size: 3em;
     }
-    .caterging-option{
+    .caterging-option,
+    .services-grid{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1em;
@@ -188,5 +189,28 @@
         top: -59%;
         left: 35%;
         font-size: 2em;
+    }
+    .services{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .amenities{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .services img, .amenities img {
+        height: auto;
+    }
+    .more-services{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .button-reception{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .button-temple-missionary{
+        grid-column: 2/3;
+        grid-row: 4/5;
     }
 }
