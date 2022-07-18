@@ -500,3 +500,41 @@ span.day_1, span.day_2, span.day_3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
 }
+.temple-section {
+  margin: 20px;
+}
+
+.temple-title {
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+  font-size: 2em;
+}
+.temple-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.temple-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.container{
+  padding: 5px;
+  margin: 15px;
+}
+.container h3{
+  text-align: center;
+  color: #212225;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:bold;  
+}
+
+.container p{
+  text-align:justify;
+  color: #212225;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}

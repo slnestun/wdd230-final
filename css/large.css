@@ -133,4 +133,7 @@
         width: auto;
         top: 67%;
     }
+    #cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

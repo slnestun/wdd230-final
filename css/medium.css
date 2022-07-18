@@ -1,5 +1,6 @@
 @media only screen and (min-width: 32.5em) {
-    .medium-view{
+    .medium-view,
+    #cards{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1em;
@@ -66,5 +67,5 @@
     form label.top select,
     form label.top textarea {
         max-width: none;
-    }
+    }    
 }
