@@ -586,6 +586,7 @@ span.day_1, span.day_2, span.day_3 {
 }
 .modern-option,
 .traditional-option{
+  position: static;
   margin: 20px;
 }
 .modern-option img,
