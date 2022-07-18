@@ -549,4 +549,19 @@ span.day_1, span.day_2, span.day_3 {
   color: #212225;
   font-family: 'Open Sans', sans-serif;
   margin: 10px;
+  box-shadow: 0 0 60px #4ACBDE;
+  border-radius: 5px;
+}
+
+.material-icons{
+  margin: inherit;
+  color: #FACA3D;
+  cursor: pointer;
+}
+.material-icons p{
+  display: inline-block;
+  text-align: left;
+  color: #212225;
+  font-family: 'Open Sans', sans-serif;
+  font-size: medium;
 }

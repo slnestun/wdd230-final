@@ -8,10 +8,9 @@ fetch(requestURL)
   .then(function (jsonObject) {
     const temple = jsonObject["temples"];
     temple.forEach(displayTemples);
-    console.log(temple)
   });
 
-  function displayTemples(temple){
+function displayTemples(temple){
     let cardView = document.createElement("div");
     cardView.setAttribute("class", "temple-card");
     let imgDiv = document.createElement("div");
@@ -42,7 +41,15 @@ fetch(requestURL)
     let p6 = document.createElement("p");
     p6.textContent = `Closure Schedule: ${temple.closure_schedule}`;
     hover.textContent = `${temple.history}`;
-
+    let likeCounter = Number(window.localStorage.getItem(temple.templeName));
+    let likeIcon = document.createElement("i");
+    likeIcon.setAttribute("class","material-icons");
+    likeIcon.setAttribute("id",`${temple.templeName}`);
+    likeIcon.textContent = `thumb_up`;
+    
+    let likeView = document.createElement("p");
+    likeView.textContent = `${likeCounter} Likes`
+    
     cardView.appendChild(imgDiv);
     imgDiv.appendChild(image);
     cardView.appendChild(hover);
@@ -55,8 +62,18 @@ fetch(requestURL)
     container.appendChild(p4);
     container.appendChild(p5);
     container.appendChild(p6);
+    container.appendChild(likeIcon);
+    likeIcon.appendChild(likeView);
     document.querySelector("#cards").appendChild(cardView);
 
-  }
+    function likeCount (){
+        likeCounter++;
+        localStorage.setItem(likeIcon.id,likeCounter);
+        window.location.reload();
+    }
+    likeIcon.onclick = likeCount;
+}
+
+
 
   
