@@ -504,7 +504,7 @@ span.day_1, span.day_2, span.day_3 {
   margin: 20px;
 }
 
-.temple-title {
+.temple-title, .reception-title {
   text-align: center;
   margin: 10px 0px 10px 0px;
   font-size: 2em;
@@ -571,12 +571,9 @@ span.day_1, span.day_2, span.day_3 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #FFFFFF;
-  font-size: 3em;
+  font-size: 2em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bolder;
-}
-.reception-title{
-  text-align: center;
 }
 .modern-option,
 .traditional-option{
@@ -589,36 +586,69 @@ span.day_1, span.day_2, span.day_3 {
   height: 100%;
   box-shadow: 0 6px 10px rgba(0,0,0,0.5);
 }
-.message{
+.modern-option .message{
   position: absolute;
-  top: 75%;
-  left:247px;
+  top: 55%;
+  left:110px;
   color: #FFFFFF;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: 'Source Sans Pro', sans-serif;
   font-style: italic;
 }
-.invite{
+.traditional-option .message{
   position: absolute;
-  top: 80%;
-  left: 266px;
+  top: 156%;
+  left:110px;
   color: #FFFFFF;
-  font-size: 2em;
+  font-size: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+}
+.traditional-option .invite{
+  position: absolute;
+  top: 160%;
+  left: 147px;
+  color: #FFFFFF;
+  font-size: 1.3em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;  
+}
+.modern-option .invite{
+  position: absolute;
+  top: 59%;
+  left: 124px;
+  color: #FFFFFF;
+  font-size: 1.3em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bolder;
 }
-.catering-button{
+.modern-option .catering-button{
   position: absolute;
-  top: 90%;
-  left: 324px;
+  top: 67%;
+  left: 165px;
   border: 2px solid #FFFFFF;
   border-radius: 40px;
   color: white;
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 0.9em;
+  margin: 4px 2px;
+  cursor: pointer; 
+}
+.traditional-option .catering-button{
+  position: absolute;
+  top: 167%;
+  left: 165px;
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.9em;
   margin: 4px 2px;
   cursor: pointer; 
 }

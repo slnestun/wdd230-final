@@ -67,5 +67,43 @@
     form label.top select,
     form label.top textarea {
         max-width: none;
-    }    
+    }  
+    .modern-option .message{
+        position: absolute;
+        top: 75%;
+        left:247px;
+        font-size: 2em;
+      }
+      .traditional-option .message{
+        position: absolute;
+        top: 175%;
+        left:247px;
+        font-size: 2em;
+      }
+      .traditional-option .invite{
+        position: absolute;
+        top: 180%;
+        left: 293px;
+        font-size: 2em;
+      }
+      .modern-option .invite{
+        position: absolute;
+        top: 80%;
+        left: 266px;
+        font-size: 2em;
+      }
+      .modern-option .catering-button{
+        position: absolute;
+        top: 90%;
+        left: 324px;
+        padding: 20px;
+        font-size: 16px; 
+      }
+      .traditional-option .catering-button{
+        position: absolute;
+        top: 190%;
+        left: 324px;
+        padding: 20px;
+        font-size: 16px; 
+      }  
 }

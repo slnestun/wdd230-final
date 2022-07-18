@@ -136,4 +136,57 @@
     #cards{
         grid-template-columns: repeat(3, 1fr);
     }
+    .catering-slide{
+        font-size: 3em;
+    }
+    .caterging-option{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em;
+        margin: 20px;
+    }
+    .modern-option{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #modern-option-description{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    #traditional-option-description{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .traditional-option{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .catering-button{
+        display: none !important;
+    }
+    .modern-option .message{
+        position: relative;
+        top: -60%;
+        left: 25%;
+        font-size: 2em;
+    }
+    .modern-option .invite {
+        position: relative;
+        top: -60%;
+        left: 28%;
+        font-size: 2em;
+    }
+    .traditional-option .message {
+        position: relative;
+        top: -60%;
+        left: 27%;
+        font-size: 2em;
+    }
+    
+    .traditional-option .invite {
+        position: relative;
+        top: -59%;
+        left: 35%;
+        font-size: 2em;
+    }
 }
