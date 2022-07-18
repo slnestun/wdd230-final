@@ -313,7 +313,7 @@ form input.submitBtn {
 
 /* Number text (1/3 etc) */
 .temple-name {
-  background-color: #4ACBDE;
+  background-color: #167B9C;
   color: #FFFFFF;
   font-size: 16px;
   padding: 8px 12px;
@@ -606,6 +606,7 @@ span.day_1, span.day_2, span.day_3 {
   width:100%;
   text-align: center;
   color: #FFFFFF;
+  text-shadow: 1px 1px 2px #003057, 0 0 1em #003057, 0 0 0.2em #003057;
   font-size: 1.5em;
   font-family: 'Source Sans Pro', sans-serif;
   font-style: italic;
@@ -617,6 +618,7 @@ span.day_1, span.day_2, span.day_3 {
   width: 100%;
   text-align: center;
   color: #FFFFFF;
+  text-shadow: 1px 1px 2px #003057, 0 0 1em #003057, 0 0 0.2em #003057;
   font-size: 1.3em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bolder;  
@@ -627,6 +629,7 @@ span.day_1, span.day_2, span.day_3 {
   top: 50%;
   width: 100%;
   color: white;
+  text-shadow: 1px 1px 2px #003057, 0 0 1em #003057, 0 0 0.2em #003057;
   padding: 5px;
   text-align: center;
   text-decoration: none;
