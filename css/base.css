@@ -532,7 +532,7 @@ span.day_1, span.day_2, span.day_3 {
 }
 
 .container p{
-  text-align:justify;
+  text-align:left;
   color: #212225;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;

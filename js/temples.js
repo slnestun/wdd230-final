@@ -33,6 +33,13 @@ fetch(requestURL)
     p2.textContent = `Email: ${temple.email}`;
     let p3 = document.createElement("p");
     p3.textContent = `Services: ${temple.services}`;
+    let p4 = document.createElement("p");
+    p4.textContent = `Ordinandce Schedule: ${temple.ordinance_schedule}`;
+    let p5 = document.createElement("p");
+    p5.textContent = `Session Schedule: ${temple.session_schedule}`;
+    let p6 = document.createElement("p");
+    p6.textContent = `Closure Schedule: ${temple.closure_schedule}`;
+
     cardView.appendChild(imgDiv);
     imgDiv.appendChild(image);
     cardView.appendChild(container);
@@ -41,6 +48,9 @@ fetch(requestURL)
     container.appendChild(p1);
     container.appendChild(p2);
     container.appendChild(p3);
+    container.appendChild(p4);
+    container.appendChild(p5);
+    container.appendChild(p6);
     document.querySelector("#cards").appendChild(cardView);
 
   }
