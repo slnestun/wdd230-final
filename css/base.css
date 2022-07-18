@@ -24,7 +24,7 @@ header h1{
   justify-content: space-between;
 }
 .facebook-logo,
-.linkedin-logo {
+.instagram-logo {
   margin: 0px 10px 0px 10px;
 }
 nav button {
@@ -557,7 +557,11 @@ span.day_1, span.day_2, span.day_3 {
   box-shadow: 0 0 60px #4ACBDE;
   border-radius: 5px;
 }
-
+.footer-contact .material-icons{
+  margin: inherit;
+  cursor: pointer;
+  color: #212225;
+}
 .material-icons{
   margin: inherit;
   color: #FACA3D;
