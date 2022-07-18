@@ -586,7 +586,7 @@ span.day_1, span.day_2, span.day_3 {
 }
 .modern-option,
 .traditional-option{
-  position: static;
+  position: relative;
   margin: 20px;
 }
 .modern-option img,
@@ -596,77 +596,44 @@ span.day_1, span.day_2, span.day_3 {
   height: 100%;
   box-shadow: 0 6px 10px rgba(0,0,0,0.5);
 }
-.modern-option .message{
-  position: absolute;
-  top: 60%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  color: #FFFFFF;
-  font-size: 1.5em;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-style: italic;
-}
+.modern-option .message,
 .traditional-option .message{
   position: absolute;
-  top: 160%;
-  left:50%;
-  transform: translate(-50%, -50%);
+  top: 25%;
+  width:100%;
+  text-align: center;
   color: #FFFFFF;
   font-size: 1.5em;
   font-family: 'Source Sans Pro', sans-serif;
   font-style: italic;
 }
-.traditional-option .invite{
+.traditional-option .invite,
+.modern-option .invite{
   position: absolute;
-  top: 165%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 40%;
+  width: 100%;
+  text-align: center;
   color: #FFFFFF;
   font-size: 1.3em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bolder;  
 }
-.modern-option .invite{
+.modern-option .catering-button a,
+.traditional-option .catering-button a{
   position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FFFFFF;
-  font-size: 1.3em;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: bolder;
-}
-.modern-option .catering-button{
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 2px solid #FFFFFF;
-  border-radius: 40px;
+  top: 50%;
+  width: 100%;
   color: white;
   padding: 5px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 0.9em;
   margin: 4px 2px;
   cursor: pointer; 
 }
-.traditional-option .catering-button{
-  position: absolute;
-  top: 170%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 2px solid #FFFFFF;
-  border-radius: 40px;
-  color: white;
-  padding: 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 0.9em;
-  margin: 4px 2px;
-  cursor: pointer; 
+.modern-option .catering-button a:hover,
+.traditional-option .catering-button a:hover{
+  text-shadow: 2px 2px #4ACBDE;
 }
 #modern-option-description,
 #traditional-option-description{

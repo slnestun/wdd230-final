@@ -165,12 +165,6 @@
     .catering-button{
         display: none !important;
     }
-    .modern-option .message, 
-    .modern-option .invite,
-    .traditional-option .message,
-    .traditional-option .invite{
-        display: none;
-    }
     .services{
         grid-column: 1/2;
         grid-row: 2/3;
