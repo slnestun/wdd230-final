@@ -62,8 +62,68 @@
         </header>
         <main>
             <div class="home-page">
-                
+                <div class="suites-grid">
+                    <div class="suites-card">
+                        <div class="suites-img">
+                            <img src="./images/suite.webp" alt="Hotel Suite" width="800" height="534">
+                        </div>
+                        <div class="suites-inf">
+                            <h3>Suite</h3>
+                            <p>The bedroom is separated from the living space by a wall, with a privacy
+                                door. The living room include a pull-out sofa to accommodate additional guests as well.
+                                Also includes a separate kitchen area with appliances, dining space, and the
+                                ability to store food. </p>
+                        </div>
+                    </div>
+                    <div class="suites-card">
+                        <div class="suites-img">
+                            <img src="./images/single.webp" alt="Hotel Single room" width="800" height="534">
+                        </div>
+                        <div class="suites-inf">
+                            <h3>Single Room</h3>
+                            <p>A single room has one king or queen bed in the room. The bathroom includes a shower/tub
+                                combination</p>
+                        </div>
+                    </div>
+                    <div class="suites-card">
+                        <div class="suites-img">
+                            <img src="./images/double.webp" alt="Hotel double room" width="800" height="534">
+                        </div>
+                        <div class="suites-inf">
+                            <h3>Doble Room</h3>
+                            <p>A double rooms have two full-sized beds. Offer living, sleeping, and dining space all in
+                                one room. The bathroom is separated from the rest of the room, and the rest of the room
+                                is
+                                an open
+                                space that accommodates all persons activities.</p>
+                        </div>
+                    </div>
+                    <div class="suites-card">
+                        <div class="suites-img">
+                            <img src="./images/apartment.webp" alt="Hotel Apartment" width="800" height="534">
+                        </div>
+                        <div class="suites-inf">
+                            <h3>Apartment</h3>
+                            <p>Apartments is located on the top floor of the building and take up
+                                the entire floor. Include a single room, a double room and a living</p>
+                        </div>
+                    </div>
+                </div>
 
+                <form method="get" action="./thankyou-contact.html">
+                    <fieldset class="contact-form">
+                        <legend>Contact Information</legend>
+                        <label class="top"> Full Name*<input type="text" name="fname" required></label>
+                        <label class="top"> Cell Phone<input type="tel" name="phone" placeholder="123555"></label>
+                        <label class="top"> Email*<input type="email" name="email" placeholder="@gmail.com"
+                                required></label>
+                        <label class="top">Comments<textarea name="description" maxlength="120"
+                                rows="5" placeholder="Max length 120 characters"></textarea>
+                        <input type="hidden" name = "current-date" id="current-date" value=""></label>
+                    </fieldset>
+                    <input type="submit" value="Submit" class="submitBtn">
+
+                </form>
             </div>
 
         </main>
@@ -104,6 +164,7 @@
     </div>
     <script src="./js/menu-ham.js"></script>
     <script src="./js/today-date.js"></script>
+    <script src="./js/contact.js"></script>
 </body>
 
 </html>

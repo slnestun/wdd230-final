@@ -1,12 +1,13 @@
 @media only screen and (min-width: 32.5em) {
     .medium-view,
-    #cards{
+    #cards,
+    .suites-grid{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1em;
         margin: 20px;
     }
-    .card{
+    .card-index{
         grid-column: 1/2;
         grid-row: 1/2;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

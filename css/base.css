@@ -365,7 +365,7 @@ form input.submitBtn {
 .card-temperature{
   margin-top: 1em;
 }
-.card {
+.card-index {
   background-color: #4ACBDE;
   width:100%;
   border-radius: 5px;
@@ -500,22 +500,25 @@ span.day_1, span.day_2, span.day_3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
 }
-.temple-section {
+.temple-section,
+.suites-card {
   margin: 20px;
 }
 
 .temple-title, .reception-title, .more-services {
   text-align: center;
-  margin: 10px 0px 10px 0px;
+  margin: 10px 30px;
   font-size: 2em;
 }
-.temple-card {
+.temple-card,
+.suites-card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px;
 }
 
-.temple-card img {
+.temple-card img,
+.suites-card img {
   width: 100%;
   height: 100%;
   border-radius: 5px 5px 0 0;
@@ -524,7 +527,8 @@ span.day_1, span.day_2, span.day_3 {
   padding: 5px;
   margin: 15px;
 }
-.container h3{
+.container h3,
+.suites-inf h3{
   text-align: center;
   color: #212225;
   font-family: 'Source Sans Pro', sans-serif;
@@ -532,7 +536,8 @@ span.day_1, span.day_2, span.day_3 {
   margin-top: 0px;  
 }
 
-.container p{
+.container p,
+.suites-inf p{
   text-align:left;
   color: #212225;
   font-family: 'Open Sans', sans-serif;
@@ -678,7 +683,7 @@ span.day_1, span.day_2, span.day_3 {
 }
 .services,
 .amenities{
-  margin: 10px;
+  margin: 30px;
   border: 2px solid #003057;
   border-radius: 10px;
 }
@@ -690,7 +695,7 @@ span.day_1, span.day_2, span.day_3 {
 }
 .list-services ul{
   margin: 20px;
-  padding: 5px 15px;
+  padding: 5px 30px;
   font-size: 1.3em;
 
 }
@@ -716,4 +721,6 @@ span.day_1, span.day_2, span.day_3 {
   color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
 }
-
+.suites-inf{
+  padding: 10px;
+}
