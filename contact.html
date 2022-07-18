@@ -47,19 +47,71 @@
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="./temple.html">Temple</a></li>
                         <li><a href="./reservation.html">Reservation</a></li>
-                        <li><a class="subactive" href="./services.html">Services</a>
+                        <li><a href="./services.html">Services</a>
                             <ul>
-                                <li class="active"><a href="./reception.html">Reception</a></li>
+                                <li><a href="./reception.html">Reception</a></li>
                                 <li><a href="./fullTimeTempleMissionary.html">Full-time temple Missionary</a></li>
                             </ul>
                         </li>
-                        <li><a href="./contact.html">Contact Us</a></li>
+                        <li class="active"><a href="./contact.html">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
 
         </header>
         <main>
+            <h2 class="contact-us">Contact Us</h2>
+                <p class="contact-p">We’re here to help. Please fill out this form to contact us. Someone will get back
+                    to
+                    you as soon as
+                    possible.</p>
+                <div class="contact-main">
+                    <form method="get" action="./thankyou-contact.html">
+                        <fieldset class="contact-form">
+                            <legend>Contact Information</legend>
+                            <label class="top"> Full Name*<input type="text" name="fname" required></label>
+                            <label class="top"> Cell Phone<input type="tel" name="phone" placeholder="123555"></label>
+                            <label class="top"> Email*<input type="email" name="email" placeholder="@gmail.com"
+                                    required></label>
+                            <label class="top">Comments<textarea name="description" maxlength="120"
+                                    rows="5" placeholder="Max length 120 characters"></textarea>
+                            <input type="hidden" name = "current-date" id="current-date" value=""></label>
+                        </fieldset>
+                        <input type="submit" value="Submit" class="submitBtn">
+
+                    </form>
+
+                    <div class="contact-data">
+                        <div class="contactInfo1">
+                            <h2>Contact us</h2>
+                            <h3>Address</h3>
+                            <div>
+                                <p>4800 Montgomery Ln #300</p>
+                                <p>MD 20814</p>
+                                <p>Bethesda</p>
+                            </div>
+                        </div>
+                        <div class="contactInfo2">
+                            <h3>Phone</h3>
+                            <p>1234-5678</p>
+                            <h3>Email</h3>
+                            <p>info@templeinn.com</p>
+                            <h3>Visit Us</h3>
+                            <p>Monday - Friday: 9:00 a.m. to 4:30 p.m </p>
+                        </div>
+
+                        <div class ="contact-map">
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3101.4050188057963!2d-77.0955318!3d38.9832518!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1658109922485!5m2!1ses-419!2sar" 
+                            title="Temple Inn & Suites"        
+                            allowfullscreen=""
+                            style="border:0;"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
            
         </main>
         <footer class="footer-color">
@@ -99,6 +151,7 @@
     </div>
     <script src="./js/menu-ham.js"></script>
     <script src="./js/today-date.js"></script>
+    <script src="./js/contact.js"></script>
 </body>
 
 </html>

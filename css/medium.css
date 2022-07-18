@@ -55,4 +55,16 @@
     .sumary-inf p{
         margin-top:10px;
     }
+
+    form .information-form,
+    form .checkin-form{
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    form label.top input,
+    form label.top select,
+    form label.top textarea {
+        max-width: none;
+    }
 }

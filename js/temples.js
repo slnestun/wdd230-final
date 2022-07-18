@@ -1,0 +1,1 @@
+const requestURL = "https://slnestun.github.io/wdd230-final/data/temple-list.json";
