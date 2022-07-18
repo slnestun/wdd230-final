@@ -597,8 +597,9 @@ span.day_1, span.day_2, span.day_3 {
 }
 .modern-option .message{
   position: absolute;
-  top: 55%;
-  left:110px;
+  top: 60%;
+  left:50%;
+  transform: translate(-50%, -50%);
   color: #FFFFFF;
   font-size: 1.5em;
   font-family: 'Source Sans Pro', sans-serif;
@@ -606,8 +607,9 @@ span.day_1, span.day_2, span.day_3 {
 }
 .traditional-option .message{
   position: absolute;
-  top: 156%;
-  left:110px;
+  top: 160%;
+  left:50%;
+  transform: translate(-50%, -50%);
   color: #FFFFFF;
   font-size: 1.5em;
   font-family: 'Source Sans Pro', sans-serif;
@@ -615,8 +617,9 @@ span.day_1, span.day_2, span.day_3 {
 }
 .traditional-option .invite{
   position: absolute;
-  top: 160%;
-  left: 147px;
+  top: 165%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #FFFFFF;
   font-size: 1.3em;
   font-family: 'Source Sans Pro', sans-serif;
@@ -624,8 +627,9 @@ span.day_1, span.day_2, span.day_3 {
 }
 .modern-option .invite{
   position: absolute;
-  top: 59%;
-  left: 124px;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #FFFFFF;
   font-size: 1.3em;
   font-family: 'Source Sans Pro', sans-serif;
@@ -633,8 +637,9 @@ span.day_1, span.day_2, span.day_3 {
 }
 .modern-option .catering-button{
   position: absolute;
-  top: 67%;
-  left: 165px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: 2px solid #FFFFFF;
   border-radius: 40px;
   color: white;
@@ -648,8 +653,9 @@ span.day_1, span.day_2, span.day_3 {
 }
 .traditional-option .catering-button{
   position: absolute;
-  top: 167%;
-  left: 165px;
+  top: 170%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: 2px solid #FFFFFF;
   border-radius: 40px;
   color: white;

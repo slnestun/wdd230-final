@@ -72,38 +72,44 @@
     .modern-option .message{
         position: absolute;
         top: 75%;
-        left:247px;
+        left:50%;
+        transform: translate(-50%, -50%);
         font-size: 2em;
       }
       .traditional-option .message{
         position: absolute;
         top: 175%;
-        left:247px;
+        left:50%;
+        transform: translate(-50%, -50%);
         font-size: 2em;
       }
       .traditional-option .invite{
         position: absolute;
         top: 180%;
-        left: 293px;
+        left: 50%;
+        transform: translate(-50%, -50%);
         font-size: 2em;
       }
       .modern-option .invite{
         position: absolute;
         top: 80%;
-        left: 266px;
+        left: 50%;
+        transform: translate(-50%, -50%);
         font-size: 2em;
       }
       .modern-option .catering-button{
         position: absolute;
         top: 90%;
-        left: 324px;
+        left: 50%;
+        transform: translate(-50%, -50%);
         padding: 20px;
         font-size: 16px; 
       }
       .traditional-option .catering-button{
         position: absolute;
         top: 190%;
-        left: 324px;
+        left: 50%;
+        transform: translate(-50%, -50%);
         padding: 20px;
         font-size: 16px; 
       }  

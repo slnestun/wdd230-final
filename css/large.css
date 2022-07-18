@@ -165,30 +165,11 @@
     .catering-button{
         display: none !important;
     }
-    .modern-option .message{
-        position: relative;
-        top: -60%;
-        left: 25%;
-        font-size: 2em;
-    }
-    .modern-option .invite {
-        position: relative;
-        top: -60%;
-        left: 28%;
-        font-size: 2em;
-    }
-    .traditional-option .message {
-        position: relative;
-        top: -60%;
-        left: 27%;
-        font-size: 2em;
-    }
-    
-    .traditional-option .invite {
-        position: relative;
-        top: -59%;
-        left: 35%;
-        font-size: 2em;
+    .modern-option .message, 
+    .modern-option .invite,
+    .traditional-option .message,
+    .traditional-option .invite{
+        display: none;
     }
     .services{
         grid-column: 1/2;
