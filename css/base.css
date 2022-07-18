@@ -100,8 +100,11 @@ margin-left: 20px;
 ----------------FORM-----------------
 -----------------------------------*/
 .temple-join,
+.temple-title,
 .contact-us,
-.fulltime-title {
+.fulltime-title,
+.services-title,
+.reception-title {
   text-align: center;
   font-size: 2.3em;
   color: #003057;
@@ -505,8 +508,7 @@ span.day_1, span.day_2, span.day_3 {
 .suites-card {
   margin: 20px;
 }
-
-.temple-title, .reception-title, .more-services {
+.more-services {
   text-align: center;
   margin: 10px 30px;
   font-size: 2em;
@@ -656,10 +658,7 @@ span.day_1, span.day_2, span.day_3 {
   font-size: 1.5em;
   padding: 5px;
 }
-.services-title{
-  text-align: center;
-  font-size: 2em;
-}
+
 .services,
 .amenities{
   margin: 30px;
