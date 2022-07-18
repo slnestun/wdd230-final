@@ -21,6 +21,8 @@ fetch(requestURL)
     image.setAttribute("alt", `${temple.templesName} Logo`);
     image.setAttribute("height", `500`);
     image.setAttribute("width", `800`);
+    let hover = document.createElement("div");
+    hover.setAttribute("class","hover-image");
     let container = document.createElement("div");
     container.setAttribute("class", "container");
     let h3 = document.createElement("h3");
@@ -39,9 +41,11 @@ fetch(requestURL)
     p5.textContent = `Session Schedule: ${temple.session_schedule}`;
     let p6 = document.createElement("p");
     p6.textContent = `Closure Schedule: ${temple.closure_schedule}`;
+    hover.textContent = `${temple.history}`;
 
     cardView.appendChild(imgDiv);
     imgDiv.appendChild(image);
+    cardView.appendChild(hover);
     cardView.appendChild(container);
     container.appendChild(h3);
     container.appendChild(p);

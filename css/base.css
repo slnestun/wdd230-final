@@ -528,7 +528,8 @@ span.day_1, span.day_2, span.day_3 {
   text-align: center;
   color: #212225;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight:bold;  
+  font-weight:bold;
+  margin-top: 0px;  
 }
 
 .container p{
@@ -536,5 +537,16 @@ span.day_1, span.day_2, span.day_3 {
   color: #212225;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+  margin: 10px;
+}
+
+.hover-image{
+  display: none;
+}
+
+.img-temple:hover +.hover-image{
+  display: block;
+  color: #212225;
+  font-family: 'Open Sans', sans-serif;
   margin: 10px;
 }
