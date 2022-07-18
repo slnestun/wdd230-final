@@ -565,3 +565,81 @@ span.day_1, span.day_2, span.day_3 {
   font-family: 'Open Sans', sans-serif;
   font-size: medium;
 }
+.catering-slide{  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  font-size: 3em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+}
+.reception-title{
+  text-align: center;
+}
+.modern-option,
+.traditional-option{
+  margin: 20px;
+}
+.modern-option img,
+.traditional-option img{
+  filter: brightness(70%);
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.5);
+}
+.message{
+  position: absolute;
+  top: 75%;
+  left:247px;
+  color: #FFFFFF;
+  font-size: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+}
+.invite{
+  position: absolute;
+  top: 80%;
+  left: 266px;
+  color: #FFFFFF;
+  font-size: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+}
+.catering-button{
+  position: absolute;
+  top: 90%;
+  left: 324px;
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; 
+}
+#modern-option-description,
+#traditional-option-description{
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.5);
+}
+#modern-option-description h3,
+#modern-option-description p,
+#traditional-option-description h3,
+#traditional-option-description p{
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.5em;
+}
+#modern-option-description li,
+#traditional-option-description li{
+  list-style: none;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
