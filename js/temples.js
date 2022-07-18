@@ -17,7 +17,7 @@ function displayTemples(temple){
     imgDiv.setAttribute("class","img-temple");
     let image = document.createElement("img");
     image.setAttribute("src", temple.imageUrl);
-    image.setAttribute("alt", `${temple.templesName} Logo`);
+    image.setAttribute("alt", `${temple.templeName} Logo`);
     image.setAttribute("height", `500`);
     image.setAttribute("width", `800`);
     let hover = document.createElement("div");
