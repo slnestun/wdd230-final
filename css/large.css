@@ -74,6 +74,7 @@
       
     nav ul li a.subactive {
         background-color: #FFFFFF;
+        color: #212225;
         border-radius: 5px;
     } 
     nav ul li ul li.active a{
