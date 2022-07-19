@@ -1,10 +1,9 @@
 const apiURL =
-"https://api.openweathermap.org/data/2.5/onecall?lat=-34.603722&lon=-58.381592&exclude=hourly,minutely&units=Metric&appid=d1fde7f43b57c183c1d5d38872f2b70b";
+"https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,minutely&units=Metric&appid=d1fde7f43b57c183c1d5d38872f2b70b";
 
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
     
     document.querySelector(".temperature").textContent = Math.round(jsObject.current.temp);
     document.querySelector(".temperature_1").textContent = Math.round(jsObject.daily[1].temp.morn);
@@ -55,8 +54,36 @@ fetch(apiURL)
     document.querySelector(".humidity").textContent = humidity;
     document.querySelector(".currently-weather").textContent = desc;
     document.querySelector(".windspeed").textContent = jsObject.current.wind_speed.toFixed(1);
+  
+    window.onload = alert()
+    
 
-  });
+    function alert(){
+      const displayAlert = document.getElementById("weather-alert");
+      let day_1 = String(new Date(jsObject.alerts[0].start *1000)).substring(0,21);
+      let day_2 = String(new Date(jsObject.alerts[0].end *1000)).substring(0,21);
+      if (jsObject.alerts != null){
+        let span = document.createElement("span");
+        span.classList.add("clsbtn","material-icons");
+        span.setAttribute("onclick","this.parentElement.style.display='none';")
+        span.textContent=`close`
+        document.querySelector("#weather-alert").textContent = `Alert: ${jsObject.alerts[0].event}`;
+        document.querySelector("#weather-alert").appendChild(span);
+        
+        let startAlert = document.createElement("p");
+        startAlert.textContent= `From: ${day_1}`
+        document.querySelector("#weather-alert").appendChild(startAlert);
+        let endAlert = document.createElement("p");
+        endAlert.textContent= `To: ${day_2}`
+        document.querySelector("#weather-alert").appendChild(endAlert);
+      }else{
+        displayAlert.style.display = "none";
+      }
+    }  
+    
+    
+});
+
 
 
 

@@ -705,3 +705,26 @@ span.day_1, span.day_2, span.day_3 {
 .suites-inf{
   padding: 10px;
 }
+#weather-alert {
+  font-size: 1.5em;
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+#weather-alert p{
+  margin: 10px;
+}
+.clsbtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 1.5em;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.clsbtn:hover {
+  color: black;
+}

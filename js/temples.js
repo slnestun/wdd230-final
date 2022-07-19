@@ -25,7 +25,7 @@ function displayTemples(temple){
     let container = document.createElement("div");
     container.setAttribute("class", "container");
     let h3 = document.createElement("h3");
-    h3.textContent = `${temple.templeName}` 
+    h3.textContent = `${temple.templeName}`; 
     let p = document.createElement("p");
     p.textContent = `Addres: ${temple.address}`;
     let p1 = document.createElement("p");
