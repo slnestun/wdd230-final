@@ -607,9 +607,10 @@ span.day_1, span.day_2, span.day_3 {
   text-align: center;
   color: #FFFFFF;
   text-shadow: 1px 1px 2px #003057, 0 0 1em #003057, 0 0 0.2em #003057;
-  font-size: 1.7em;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
   font-style: italic;
+  font-weight: bolder;
 }
 .traditional-option .invite,
 .modern-option .invite{
@@ -619,21 +620,23 @@ span.day_1, span.day_2, span.day_3 {
   text-align: center;
   color: #FFFFFF;
   text-shadow: 1px 1px 2px #003057, 0 0 1em #003057, 0 0 0.2em #003057;
-  font-size: 1.3em;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bolder;  
 }
 .modern-option .catering-button a,
 .traditional-option .catering-button a{
   position: absolute;
-  top: 50%;
+  top: 55%;
   width: 100%;
   color: white;
   text-shadow: 1px 1px 2px #003057, 0 0 1em #003057, 0 0 0.2em #003057;
   padding: 5px;
   text-align: center;
   text-decoration: none;
-  font-size: 0.9em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 1.5em;
   margin: 4px 2px;
   cursor: pointer; 
 }
