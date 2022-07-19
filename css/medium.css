@@ -73,4 +73,12 @@
     .traditional-option .catering-button a{
         display: none;
     }
+    .modern-option .message,
+    .traditional-option .message{
+        font-size: 3em;
+    }
+    .traditional-option .invite,
+    .modern-option .invite{
+        font-size: 3em;
+    }
 }
