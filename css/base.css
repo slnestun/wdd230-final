@@ -335,7 +335,6 @@ form input.submitBtn {
   width:100%;
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   display: inline-block;
   margin: auto;
   font-weight: bold;

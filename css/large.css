@@ -132,7 +132,32 @@
         grid-row: 1/2;
         opacity:unset;
         width: auto;
-        top: 67%;
+        height:fit-content;
+        top: auto;
+        position: inherit;
+    }
+    .temple-name{
+        font-size: 1.5em;
+    }
+    .card-index{
+        height: 100%;
+    }
+    .card-header{
+        height: 50%;
+        font-size: 1.5em;
+    }
+    .left-side{
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translateY(-50%);
+        width: auto;
+    }
+    .weather-icon{
+        right: 10%;
+    }
+    .coming-weather .col{
+        padding:6%;
     }
     #cards{
         grid-template-columns: repeat(3, 1fr);
