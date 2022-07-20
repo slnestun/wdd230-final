@@ -547,8 +547,8 @@ span.day_1, span.day_2, span.day_3 {
   top: 25%;
   width:100%;
   text-align: center;
-  color: #FFFFFF;
-  text-shadow: 1px 1px 2px #003057, 0 0 1em #003057, 0 0 0.2em #003057;
+  color: #003057;
+  text-shadow: 1px 1px 2px #FFFFFF, 0 0 1em #FFFFFF, 0 0 0.2em #FFFFFF;
   font-size: 2em;
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
@@ -560,8 +560,8 @@ span.day_1, span.day_2, span.day_3 {
   top: 40%;
   width: 100%;
   text-align: center;
-  color: #FFFFFF;
-  text-shadow: 1px 1px 2px #003057, 0 0 1em #003057, 0 0 0.2em #003057;
+  color: #003057;
+  text-shadow: 1px 1px 2px #FFFFFF, 0 0 1em #FFFFFF, 0 0 0.2em #FFFFFF;
   font-size: 2em;
   font-family: 'Open Sans', sans-serif;
   font-weight: bolder;  
@@ -571,8 +571,8 @@ span.day_1, span.day_2, span.day_3 {
   position: absolute;
   top: 55%;
   width: 100%;
-  color: white;
-  text-shadow: 1px 1px 2px #003057, 0 0 1em #003057, 0 0 0.2em #003057;
+  color: #003057;
+  text-shadow: 1px 1px 2px #FFFFFF, 0 0 1em #FFFFFF, 0 0 0.2em #FFFFFF;
   padding: 5px;
   text-align: center;
   text-decoration: none;
