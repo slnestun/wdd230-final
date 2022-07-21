@@ -11,7 +11,7 @@
             "ordinance_schedule":"Temple Appointments Available Online",
             "session_schedule":"Temple Appointments Available Online",
             "closure_schedule":"\nMonday, 3 October 2022 - Monday, 17 October 2022 <br>Saturday, 24 December 2022 - Sunday, 25 December 2022 \nSaturday, 31 December 2022 - Sunday, 1 January 2023",
-            "imageUrl": "./images/buenos_aires_argentina_temple_1.webp"
+            "imageUrl": "/images/buenos_aires_argentina_temple_1.webp"
         },
         {
             "templeName":"Rome Italy Temple",
@@ -24,7 +24,7 @@
             "ordinance_schedule":"Temple Appointments Available Online",
             "session_schedule":"Temple Appointments Available Online",
             "closure_schedule":"Monday, 19 September 2022 - Monday, 3 October 2022 \nSaturday, 24 December 2022 - Monday, 26 December 2022 \nSaturday, 31 December 2022 - Sunday, 1 January 2023",
-            "imageUrl": "./images/rome_italy_temple_1.webp"
+            "imageUrl": "/images/rome_italy_temple_1.webp"
         },
         {
             "templeName":"Cochabamba Bolivia Temple",
@@ -37,7 +37,7 @@
             "ordinance_schedule":"Temple Appointments Available Online",
             "session_schedule":"Temple Appointments Available Online",
             "closure_schedule":"\nSaturday, 6 August 2022 \nSaturday, 1 October 2022 \nMonday, 3 October 2022 - Monday, 17 October 2022 \nSaturday, 24 December 2022 \nSaturday, 31 December 2022",
-            "imageUrl": "./images/cochabamba_bolivia_temple_1.webp"
+            "imageUrl": "/images/cochabamba_bolivia_temple_1.webp"
         },
         {
             "templeName":"Sacramento California Temple",
@@ -50,7 +50,7 @@
             "ordinance_schedule":"Temple Appointments Available Online",
             "session_schedule":"Temple Appointments Available Online",
             "closure_schedule":"\nTuesday, 2 August 2022 - Monday, 15 August 2022 \nSaturday, 1 October 2022 \nWednesday, 23 November 2022 (Limited Operations) \nThursday, 24 November 2022 \nSaturday, 24 December 2022 \nSaturday, 31 December 2022 (Limited Operations)",
-            "imageUrl": "./images/sacramento_california_temple_1.webp"
+            "imageUrl": "/images/sacramento_california_temple_1.webp"
         },
         {
             "templeName":"Rio de Janeiro Brazil Temple",
@@ -63,7 +63,7 @@
             "ordinance_schedule":"Temple Appointments Available Online",
             "session_schedule":"Temple Appointments Available Online",
             "closure_schedule":"\nSaturday, 1 October 2022 - Sunday, 2 October 2022 \nMonday, 17 October 2022 - Monday, 31 October 2022 \nSaturday, 24 December 2022 - Sunday, 25 December 2022 \nSaturday, 31 December 2022 - Sunday, 1 January 2023",
-            "imageUrl": "./images/rio_de_janeiro_brazil_temple_1.webp"
+            "imageUrl": "/images/rio_de_janeiro_brazil_temple_1.webp"
         },
         {
             "templeName":"Sydney Australia Temple",
@@ -76,7 +76,7 @@
             "ordinance_schedule":"Temple Appointments Available Online",
             "session_schedule":"Temple Appointments Available Online",
             "closure_schedule":"\nSaturday, 8 October 2022 \nMonday, 31 October 2022 - Monday, 14 November 2022 \nSaturday, 24 December 2022 \nTuesday, 27 December 2022",
-            "imageUrl": "./images/sidney_australia_temple_1.webp"
+            "imageUrl": "/images/sidney_australia_temple_1.webp"
         }
     ]
 }
