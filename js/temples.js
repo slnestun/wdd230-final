@@ -18,8 +18,8 @@ function displayTemples(temple){
     let image = document.createElement("img");
     image.setAttribute("src", temple.imageUrl);
     image.setAttribute("alt", `${temple.templeName} Logo`);
-    image.setAttribute("height", `500`);
-    image.setAttribute("width", `800`);
+    image.setAttribute("height", `400`);
+    image.setAttribute("width", `600`);
     let hover = document.createElement("div");
     hover.setAttribute("class","hover-image");
     let container = document.createElement("div");
