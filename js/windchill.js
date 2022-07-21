@@ -1,8 +1,10 @@
 const apiURL =
-"https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,minutely&units=Metric&appid=d1fde7f43b57c183c1d5d38872f2b70b";
+"https://api.openweathermap.org/data/2.5/onecall?lat=-34.61315&lon=-58.37723&exclude=hourly,minutely&units=Metric&appid=d1fde7f43b57c183c1d5d38872f2b70b";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
+
+    console.log(jsObject);
     document.querySelector(".temperature").textContent = Math.round(jsObject.current.temp);
     document.querySelector(".temperature_1").textContent = Math.round(jsObject.daily[1].temp.morn);
     document.querySelector(".temperature_2").textContent = Math.round(jsObject.daily[2].temp.morn);
@@ -48,9 +50,9 @@ fetch(apiURL)
     window.onload = alert()
     function alert(){
       const displayAlert = document.getElementById("weather-alert");
-      let day_1 = String(new Date(jsObject.alerts[0].start *1000)).substring(0,21);
-      let day_2 = String(new Date(jsObject.alerts[0].end *1000)).substring(0,21);
       if (jsObject.alerts != null){
+        let day_1 = String(new Date(jsObject.alerts[0].start *1000)).substring(0,21);
+        let day_2 = String(new Date(jsObject.alerts[0].end *1000)).substring(0,21);
         let span = document.createElement("span");
         span.classList.add("clsbtn","material-icons");
         span.setAttribute("onclick","this.parentElement.style.display='none';")
