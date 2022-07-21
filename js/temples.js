@@ -15,11 +15,8 @@ function displayTemples(temple){
     cardView.setAttribute("class", "temple-card");
     let imgDiv = document.createElement("div");
     imgDiv.setAttribute("class","img-temple");
-    let picture = document.createElement("picture");
-
     let image = document.createElement("img");
-    image.setAttribute("data-src",temple.imageUrl)
-    image.setAttribute("src", "https://via.placeholder.com/600X400.webp/000000/FFFFFF/?text=600X400");
+    image.setAttribute("src", temple.imageUrl);
     image.setAttribute("alt", `${temple.templeName} Logo`);
     image.setAttribute("height", `400`);
     image.setAttribute("width", `600`);
@@ -54,8 +51,7 @@ function displayTemples(temple){
     likeView.textContent = `${likeCounter} Likes`
     
     cardView.appendChild(imgDiv);
-    imgDiv.appendChild(picture);
-    picture.appendChild(image);
+    imgDiv.appendChild(image);
     cardView.appendChild(hover);
     cardView.appendChild(container);
     container.appendChild(h3);
